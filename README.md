@@ -1,6 +1,6 @@
 # Cordova Timetap Plugin #
 Created by Justin McNally on 2/11/13.
-updated by [Etienne Adriaenssen] for Phonegap 3.0 using the command phonegap plugin add https://github.com/etiennea/TapToScroll.gitt
+updated by [Etienne Adriaenssen] for Phonegap 3.0 using the command phonegap local plugin add https://github.com/etiennea/TapToScroll.gitt
 
 ## LICENSE ##
 
