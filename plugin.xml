@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin
+	xmlns="http://apache.org/cordova/ns/plugins/1.0"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	id="com.phonegap.plugins.actionsheet"
+	version="1.0.0">
+
+	<name>TapToScroll</name>
+	<description>TapToScroll Plugin</description>
+	<license>MIT</license>
+
+  <js-module src="www/TapToScroll.js" name="TapToScroll">
+        <clobbers target="TapToScroll" />
+    </js-module>
+
+	<!-- ios -->
+	<platform name="ios">
+		<config-file target="config.xml" parent="/widget/plugins">
+			<feature name="TapToScroll">
+				<param name="ios-package" value="TapToScroll"/>
+			</feature>
+		</config-file>
+
+		<header-file src="src/ios/TapToScroll.h" />
+		<source-file src="src/ios/TapToScroll.m" />
+	</platform>
+
+</plugin>
+
